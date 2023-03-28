@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#user-form {
+  margin-bottom: 2rem;
+}
+
+#recommendations {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* ...之前的CSS代码... */
+
+/* .movie {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+} */
+/* ...之前的CSS代码... */
+
+.recommendations {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.poster {
+  width: 80px;
+  height: 120px;
+  margin-right: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.rate, .time {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-size: 0.9rem;
+}
+
+

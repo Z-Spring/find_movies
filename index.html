@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>AI电影推荐</title>
+</head>
+
+<body>
+  <h1>AI电影推荐</h1>
+  <form id="user-form">
+    <label for="username">豆瓣用户名：</label>
+    <input type="text" id="username" name="username" required>
+    <button type="submit">获取推荐</button>
+  </form>
+  <div id="loader" style="display: none;">加载中...</div>
+  <div id="recommendations" style="display: none;">
+    <h2>推荐电影</h2>
+    <ul id="movie-list"></ul>
+  </div>
+  <script src="api.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
